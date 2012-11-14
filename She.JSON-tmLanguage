@@ -1,0 +1,40 @@
+{ "name": "She",
+  "scopeName": "source.she",
+  "fileTypes": ["she", "sc"],
+  "patterns": [
+    {
+      "match": "(?<=\\s)\\d+",
+      "name": "constant.numeric.source.she",
+      "comment": "number"
+    }, {
+      "match": "\".*\"",
+      "name": "string.source.she",
+      "comment": "string"
+    }, {
+      "match": "'.*",
+      "name": "keyword.source.she",
+      "comment": "string"
+    }, {
+      "match": "#\\S+",
+      "name": "keyword.source.she",
+      "comment": "string"
+    }, {
+      "match": "^\\s*\\w\\S+",
+      "name": "support.function.source.she",
+      "comment": "function at line start"
+    }, {
+      "match": "(?<=\\()\\w\\S+",
+      "name": "support.function.source.she",
+      "comment": "function in brackets"
+    }, {
+      "match": ";[^\n]*",
+      "name": "comment.source.she",
+      "comment": "comment"
+    }, {
+      "match": "[\\)\\(]",
+      "name": "comment.source.she",
+      "comment": "comment"
+    }
+  ],
+  "uuid": "34fc26ad-d8e0-4856-ac1c-c23b22a59671"
+}
