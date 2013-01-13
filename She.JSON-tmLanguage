@@ -7,11 +7,11 @@
       "name": "constant.numeric.source.she",
       "comment": "number"
     }, {
-      "match": "\".*\"",
+      "match": "\"([^\"]|(\\\\\"))*\"",
       "name": "string.source.she",
       "comment": "string"
     }, {
-      "match": "'.*",
+      "match": "'\\S+",
       "name": "keyword.source.she",
       "comment": "string"
     }, {
