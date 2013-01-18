@@ -11,7 +11,7 @@
       "name": "string.source.she",
       "comment": "string"
     }, {
-      "match": "'\\S+",
+      "match": "'[^\\(\\)\\s]+",
       "name": "keyword.source.she",
       "comment": "string"
     }, {

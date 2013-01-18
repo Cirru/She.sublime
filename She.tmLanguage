@@ -31,7 +31,7 @@
       <key>comment</key>
       <string>string</string>
       <key>match</key>
-      <string>'\S+</string>
+      <string>'[^\(\)\s]+</string>
       <key>name</key>
       <string>keyword.source.she</string>
     </dict>
