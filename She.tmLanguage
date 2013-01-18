@@ -47,7 +47,7 @@
       <key>comment</key>
       <string>function at line start</string>
       <key>match</key>
-      <string>^\s*[^\(\)]+</string>
+      <string>^\s*[^\(\)\s]+</string>
       <key>name</key>
       <string>support.function.source.she</string>
     </dict>
@@ -55,7 +55,7 @@
       <key>comment</key>
       <string>function in brackets</string>
       <key>match</key>
-      <string>(?&lt;=\()[^\(\)]+</string>
+      <string>(?&lt;=\()[^\(\)\s]+</string>
       <key>name</key>
       <string>support.function.source.she</string>
     </dict>
