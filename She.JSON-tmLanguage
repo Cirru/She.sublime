@@ -19,11 +19,11 @@
       "name": "keyword.source.she",
       "comment": "string"
     }, {
-      "match": "^\\s*\\w\\S+",
+      "match": "^\\s*[^\\(\\)]+",
       "name": "support.function.source.she",
       "comment": "function at line start"
     }, {
-      "match": "(?<=\\()\\w\\S+",
+      "match": "(?<=\\()[^\\(\\)]+",
       "name": "support.function.source.she",
       "comment": "function in brackets"
     }, {
