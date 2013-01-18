@@ -21,11 +21,19 @@
     </dict>
     <dict>
       <key>comment</key>
-      <string>string</string>
+      <string>character</string>
+      <key>match</key>
+      <string>#\\\S+</string>
+      <key>name</key>
+      <string>constant.character.source.she</string>
+    </dict>
+    <dict>
+      <key>comment</key>
+      <string>string double quoted</string>
       <key>match</key>
       <string>"([^"]|(\\"))*"</string>
       <key>name</key>
-      <string>string.source.she</string>
+      <string>string.quoted.double.source.she</string>
     </dict>
     <dict>
       <key>comment</key>
@@ -33,15 +41,15 @@
       <key>match</key>
       <string>'[^\(\)\s]+</string>
       <key>name</key>
-      <string>keyword.source.she</string>
+      <string>keyword.operator.source.she</string>
     </dict>
     <dict>
       <key>comment</key>
       <string>string</string>
       <key>match</key>
-      <string>#\S+</string>
+      <string>#\w+</string>
       <key>name</key>
-      <string>keyword.source.she</string>
+      <string>keyword.control.source.she</string>
     </dict>
     <dict>
       <key>comment</key>
@@ -61,12 +69,12 @@
     </dict>
     <dict>
       <key>comment</key>
-      <string>comment</string>
+      <string>line comment</string>
       <key>match</key>
       <string>;[^
 ]*</string>
       <key>name</key>
-      <string>comment.source.she</string>
+      <string>comment.line.character.source.she</string>
     </dict>
     <dict>
       <key>comment</key>
@@ -74,7 +82,7 @@
       <key>match</key>
       <string>[\)\(]</string>
       <key>name</key>
-      <string>comment.source.she</string>
+      <string>constant.language.source.she</string>
     </dict>
   </array>
   <key>scopeName</key>

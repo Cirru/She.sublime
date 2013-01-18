@@ -7,16 +7,20 @@
       "name": "constant.numeric.source.she",
       "comment": "number"
     }, {
+      "match": "#\\\\\\S+",
+      "name": "constant.character.source.she",
+      "comment": "character"
+    }, {
       "match": "\"([^\"]|(\\\\\"))*\"",
-      "name": "string.source.she",
-      "comment": "string"
+      "name": "string.quoted.double.source.she",
+      "comment": "string double quoted"
     }, {
       "match": "'[^\\(\\)\\s]+",
-      "name": "keyword.source.she",
+      "name": "keyword.operator.source.she",
       "comment": "string"
     }, {
-      "match": "#\\S+",
-      "name": "keyword.source.she",
+      "match": "#\\w+",
+      "name": "keyword.control.source.she",
       "comment": "string"
     }, {
       "match": "^\\s*[^\\(\\)\\s]+",
@@ -28,11 +32,11 @@
       "comment": "function in brackets"
     }, {
       "match": ";[^\n]*",
-      "name": "comment.source.she",
-      "comment": "comment"
+      "name": "comment.line.character.source.she",
+      "comment": "line comment"
     }, {
       "match": "[\\)\\(]",
-      "name": "comment.source.she",
+      "name": "constant.language.source.she",
       "comment": "comment"
     }
   ],
