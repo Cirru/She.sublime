@@ -29,6 +29,14 @@
     </dict>
     <dict>
       <key>comment</key>
+      <string>keyword</string>
+      <key>match</key>
+      <string>#:\S+</string>
+      <key>name</key>
+      <string>keyword.control.source.she</string>
+    </dict>
+    <dict>
+      <key>comment</key>
       <string>string double quoted</string>
       <key>match</key>
       <string>"([^"]|(\\"))*"</string>

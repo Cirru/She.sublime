@@ -11,6 +11,10 @@
       "name": "constant.character.source.she",
       "comment": "character"
     }, {
+      "match": "#:\\S+",
+      "name": "keyword.control.source.she",
+      "comment": "keyword"
+    }, {
       "match": "\"([^\"]|(\\\\\"))*\"",
       "name": "string.quoted.double.source.she",
       "comment": "string double quoted"
