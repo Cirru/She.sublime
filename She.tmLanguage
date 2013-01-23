@@ -47,7 +47,7 @@
       <key>comment</key>
       <string>string</string>
       <key>match</key>
-      <string>'[^\(\)\s]+</string>
+      <string>'((\\\s)|[^\(\)\s])+</string>
       <key>name</key>
       <string>keyword.operator.source.she</string>
     </dict>

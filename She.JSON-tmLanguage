@@ -19,7 +19,7 @@
       "name": "string.quoted.double.source.she",
       "comment": "string double quoted"
     }, {
-      "match": "'[^\\(\\)\\s]+",
+      "match": "'((\\\\\\s)|[^\\(\\)\\s])+",
       "name": "keyword.operator.source.she",
       "comment": "string"
     }, {
