@@ -3,5 +3,6 @@
   "translate_tabs_to_spaces": true,
   "use_single_quote": true,
   "word_separators": "\\()\"',;#|[]{}`",
+  "space_auto_indent": true,
   "auto_match_enabled": false
 }

@@ -41,7 +41,7 @@
     }, {
       "match": "[\\)\\(]",
       "name": "constant.language.source.she",
-      "comment": "comment"
+      "comment": "brackets"
     }
   ],
   "uuid": "34fc26ad-d8e0-4856-ac1c-c23b22a59671"
